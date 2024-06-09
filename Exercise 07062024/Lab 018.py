@@ -1,4 +1,4 @@
 # Escape sequence
 
-print("Hello \"World\" World")
+print("Hello \"World\"")
 print ("Hello \nWorld")

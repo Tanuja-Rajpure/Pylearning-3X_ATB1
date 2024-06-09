@@ -7,12 +7,14 @@ print (val)
 # none is not 0
 # none is not empty
 # none is not same as string
-# It used fro initial decaration
+# It used for initial declaration
 name = None
 print (None)
-print (Id(name))
-name = "Sachin"
+
+#print(name[0]) TypeError: 'NoneType' object is not subscriptable
+print (id(name))
+name = "Sachin" # First name assigned as none , then assigned to Sachin
 print (name)
-print (Id(name))
+print (id(name))
 
 name = "" # empty string

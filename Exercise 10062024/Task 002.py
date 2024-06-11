@@ -29,4 +29,4 @@ print("Cube of given number is : ", Cube)
 numa1 = float(input("Enter the number a1: "))
 numa2 = float(input("Enter the number a2: "))
 
-print("Number a1 is greater than Number a2" if numa1 > numa2 else "Number a1 is less than Number a2" or "Number a1 is equal to Number a2" )
+print("Number a1 is greater than Number a2" if numa1 > numa2 else "Number a1 is less than Number a2" if numa1 < numa2 else "Number a1 is equal to Number a2" )

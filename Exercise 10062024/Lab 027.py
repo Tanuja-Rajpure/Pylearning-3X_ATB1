@@ -8,10 +8,10 @@
 # Data type
 # Input = float or Int
 # Output = float or Int
-
+import math
 # COre logic -> pi*r*r (pi= 3.14)
-radius = float(input ("Enter radius of circle\n"))
-print (math.pi)
+radius = float(input ("Enter radius of circle\n -: "))
+
 area = math.pi * radius * radius
-print ("Area of circle is ", area)
+print("Area of circle is \n -: ", area)
 

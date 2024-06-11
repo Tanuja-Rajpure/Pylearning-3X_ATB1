@@ -18,7 +18,8 @@ print(type(square))
 # Calculate cube of given number
 print("**Calculate Cube of number**")
 num2 = float(input("Enter the number : "))
-Cube = math.pow(num2,3)
+#Cube = math.pow(num2,3)
+Cube = (num2) ** 3
 print("Cube of given number is : ", Cube)
 
 

@@ -1,5 +1,3 @@
-# Trangle programme
-
 # Triangle classifier
 
 a = float(input("Enter a side 1: "))

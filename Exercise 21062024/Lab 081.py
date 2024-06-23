@@ -12,3 +12,7 @@ print(len(my_dict1))
 print(my_dict1["name"])
 print(my_dict1["age"])
 print(my_dict1["Address"])
+
+for k,v in my_dict1.items():
+    print(k ,":" , v)
+

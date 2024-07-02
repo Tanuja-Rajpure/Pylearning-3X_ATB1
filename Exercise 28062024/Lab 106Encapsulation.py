@@ -36,10 +36,10 @@ jp_chase.if_u_r_authenticated_user(True, 10)
 jp_chase.if_u_r_authenticated(True)
 
 secret_pass = input("Enter PIN to see balance: ")
-your_amount = int(input("Enter your amt to withdraw"))
+your_amount = int(input("Enter your amt to withdraw: "))
 
-if secret_pass == "12345":
-    jp_chase.if_u_r_authenticated_user(True, amount= your_amount)
+if secret_pass == "123":
+    jp_chase.if_u_r_authenticated_user(True, amount=your_amount)
     jp_chase.if_u_r_authenticated(True)
 else:
-    jp_chase.if_u_r_authenticated_user(False)
+    jp_chase.if_u_r_authenticated_user(False, 12)

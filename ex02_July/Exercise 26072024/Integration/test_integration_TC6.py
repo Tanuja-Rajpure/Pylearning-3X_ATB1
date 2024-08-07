@@ -1,8 +1,9 @@
-#Integration Scenarios
-# 4) Create a booking and delete it
+# 6) Trying to Update on a deleted id
+
+import pytest
 import allure
 import requests
-import pytest
+
 
 def test_delete_booking(create_token, create_booking):
     base_url = "https://restful-booker.herokuapp.com"
@@ -24,5 +25,4 @@ def test_delete_booking(create_token, create_booking):
     get_response = requests.get(url=get_url)
     #response= get_response.json()
     assert get_response.status_code == 404
-    print("Execution Completed")
 
